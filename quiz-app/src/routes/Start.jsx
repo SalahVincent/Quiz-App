@@ -19,7 +19,7 @@ const Start = () => {
 
         <button
           onClick={handleStart}
-          className="bg-white mt-10 rounded-3xl text-[20px] px-10"
+          className="bg-white mt-10 rounded-3xl text-[20px] px-10 active:transform-scale"
         >
           Start
         </button>

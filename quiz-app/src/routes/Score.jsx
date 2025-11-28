@@ -3,7 +3,7 @@ import { useStore } from "../Store/store";
 
 const Score = () => {
   const navigate = useNavigate();
-  const { score, questions } = useStore();
+  const { score, questions, correctAnswer } = useStore();
 
   return (
     <div className="h-screen bg-[#1a1a1a] flex justify-center items-center">
@@ -11,6 +11,9 @@ const Score = () => {
         <h1 className="text-[50px] font-bold">Your Score</h1>
         <p className="text-[30px] mt-5">
           {score} / {questions.length}
+        </p>
+        <p>
+          {correctAnswer}
         </p>
 
         <button
