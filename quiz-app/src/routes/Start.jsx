@@ -12,17 +12,18 @@ const Start = () => {
 
   return (
     <div className="h-screen bg-[#1a1a1a] flex justify-center items-center">
-      <div className="flex flex-col items-center px-5 py-[60px] rounded-xl w-[80%] h-[80%]">
-        <h1 className="text-white text-[50px] font-bold">
-          Take Your <span className="text-blue-500">Quiz</span>
+      <div className="flex flex-col items-center px-5 py-[60px] rounded-[30px] w-[80%] h-[80%] border-black bg-white border-2">
+        <h1 className="text-[35px] font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#4359d8] to-[#e65d5d] text-center">
+          Welcome! Challenge yourself, answer this quiz to your very best and evaluate yourself
         </h1>
 
         <button
           onClick={handleStart}
-          className="bg-white mt-10 rounded-3xl text-[20px] px-10 active:transform-scale"
+          className="bg-blue-200 my-4 py-[5px] rounded-[12px] text-[20px] px-10 active:scale-125 transition duration-200 ease-in-out transform hover:bg-blue-500"
         >
           Start
         </button>
+        <div className='flex justify-center'><img className='h-[200px]' src="./quiz.gif" alt="" /></div>
       </div>
     </div>
   );
