@@ -12,7 +12,7 @@ const Start = () => {
 
   return (
     <div className="h-screen bg-[#1a1a1a] flex justify-center items-center">
-      <div className="flex flex-col items-center px-5 py-[60px] rounded-[30px] w-[80%] h-[80%] border-black bg-white border-2">
+      <div className="flex flex-col items-center px-5 py-[60px] rounded-[30px] w-[50rem] h-fit border-black bg-white border-2">
         <h1 className="text-[35px] font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#4359d8] to-[#e65d5d] text-center">
           Welcome! Challenge yourself, answer this quiz to your very best and evaluate yourself
         </h1>
