@@ -1,16 +1,55 @@
-# React + Vite
+# Project Name
+- Quiz App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project View
+- ![StartSection](./public/StartSection.png)
 
-Currently, two official plugins are available:
+## App Description
+- ![QuizSection](./public/QuizSection.png)
+- ![ResultsSection](./public/ResultsSection.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## About
+- This web app requires any user to start a quiz on general knowledge type questions whereby a he/she answers ten questions in total with a 10 second time interval per question
 
-## React Compiler
+## Answering
+- Each user requires a mouse to navigate through and anwer the questions
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Design
+- This design was made by me
 
-## Expanding the ESLint configuration
+## Built With
+- HTML 5
+- CSS styles
+- JavaScript
+- React js
+- Vite
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Prerequisites
+Knowledge about
+- HTML
+- CSS
+- JavaScript
+
+## Clone project
+To get a copy to your local directory:
+- Clone the repository by running 'git clone "https://github.com/SalahVincent/Quiz-App' on your terminal
+To change to the folder project directory:
+- Change to the project directory by running: 'cd quiz-app' on the terminal
+
+## Starting project
+To start this app:
+- run 'npm install'
+- run 'npm run dev'
+ on your command line/terminal
+
+## Live site
+-[Link](https://quiz-r6nklio9j-vincent-salahs-projects.vercel.app/)
+
+## Author
+**Vincent Salah**
+
+- GitHub:
+[@SalahVincent](https://github.com/SalahVincent)
+
+## Show your support
+Give me a star if you like this project!
